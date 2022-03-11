@@ -15,7 +15,7 @@
 
 }
 
-header{
+header {
     background-color: darkgray;
     color: white;
     text-align: center;
@@ -28,29 +28,39 @@ header{
 }
 
 
-nav{
-    padding-top: 13px;
-    background-color: black;
+.divnav{
+     padding: 15px;
+    background-color: yellow;
     text-align: right;
+    overflow: hidden;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.377);
+    transition: .3s;
+    
 
 }
 
- nav a{
+ .divnav a{
     color: white;
     border-radius: 5px;
     text-decoration: none;
+    margin-right: 30px;
     padding: 13px;
     font-weight: bold;
-    transition-duration: 0.5s;
+    transition: .2s;
 
 }
 
-nav:hover{
-    color: darkgrey;
+.divnav:hover{
+    background-color: yellowgreen;
+        color: white;   
+        transition: .3s;
 }
 
-
+.divnav > a:hover{
+    color: yellow;
+    transition: .2s;
+    font-size: 17px;
+}
 
 main{
     text-align: center;
